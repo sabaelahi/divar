@@ -1,0 +1,26 @@
+@font-face{
+	src:url('fonts/iransans.ttf') format('ttf'),
+	    url('fonts/iransans.eot') format('eot'),
+		url('fonts/iransans.woff') format('woff');
+	font-family:iransans;
+	font-weight:normal;
+	font-style:normal;	
+}
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+	word-wrap:break-word;
+	word-break:keep-all;	
+	direction:rtl;
+	line-height:1.42;
+    font-family:iransans;
+}
+.logo{
+    width: 48px;
+}
+@media screen and (min-width: 990px) {
+    .pl-c{
+       padding-left: 50px; 
+    }
+}
